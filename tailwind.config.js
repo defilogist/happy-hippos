@@ -11,7 +11,6 @@ module.exports = {
   ],
   daisyui: {
     styled: true,
-    // TODO: Theme needs works
     themes: [
       {
         'solana': {                          /* your theme name */
@@ -31,13 +30,13 @@ module.exports = {
           'accent-focus': '#2aa79b',      /* Accent color - focused */
           'accent-content': '#ffffff',    /* Foreground content color to use on accent color */
 
-          'neutral': '#2b2b2b',           /* Neutral color */
-          'neutral-focus': '#2a2e37',     /* Neutral color - focused */
+          'neutral': '#4044DB',           /* Neutral color */
+          'neutral-focus': '#5054EB',     /* Neutral color - focused */
           'neutral-content': '#ffffff',   /* Foreground content color to use on neutral color */
 
-          'base-100': '#181818',          /* Base color of page, used for blank backgrounds */
-          'base-200': '#35363a',          /* Base color, a little darker */
-          'base-300': '#222222',          /* Base color, even more darker */
+          'base-100': '#79A3F2',          /* Base color of page, used for blank backgrounds */
+          'base-200': '#6271EB',          /* Base color, a little darker */
+          'base-300': '#7074DB',          /* Base color, even more darker */
           'base-content': '#f9fafb',      /* Foreground content color to use on base color */
 
           'info': '#2094f3',              /* Info */

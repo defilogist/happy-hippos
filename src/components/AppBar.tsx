@@ -1,8 +1,10 @@
 import { FC } from 'react';
 import Link from "next/link";
+import Image from "next/image";
 
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { useAutoConnect } from '../contexts/AutoConnectProvider';
+import logo from '../../public/happy-hippo-logo.png'
 
 export const AppBar: FC = props => {
   const { autoConnect, setAutoConnect } = useAutoConnect();
@@ -17,7 +19,17 @@ export const AppBar: FC = props => {
 
         {/* Nav Links */}
         <div className="hidden md:inline md:navbar-center">
-          <div className="flex items-stretch">
+          <div className="flex items-center">
+            <Link href="/">
+              <button className="btn btn-square btn-ghost rounded-btn mr-2">
+                <Image
+                  src={logo}
+                  height="35"
+                  width="35"
+                  alt="Happy Hippos Logo"
+                />
+              </button>
+            </Link>
             <Link href="/hippos/1">
               <a className="btn btn-ghost btn-sm rounded-btn">Hippos</a>
             </Link>

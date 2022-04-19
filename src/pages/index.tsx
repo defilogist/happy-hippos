@@ -6,13 +6,15 @@ const Home: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>Solana Scaffold</title>
+        <title>Happy Hippos</title>
         <meta
           name="description"
-          content="Solana Scaffold"
+          content="The home of the Happy Hippos community"
         />
       </Head>
-      <HomeView />
+      <h1 class="max-w-screen-lg m-auto text-center funny text-6xl mt-8">
+        Welcome to the happy hippos!
+      </h1>
     </div>
   );
 };

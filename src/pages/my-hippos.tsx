@@ -15,8 +15,8 @@ const AUTHORITY_ADDRESS = "Cm8VhX861jnneSzziMquCYj5CK6t1kt6QFKkFcPGb72P";
 
 const HippoRow = ({ id }: any) => {
   return (
-    <div class="bg-white rounded-md shadow-md text-black">
-      <Link href={`/hippo/${id}`}>
+  <Link href={`/hippo/${id}`}>
+    <div class="bg-white rounded-md shadow-md text-black cursor-pointer">
         <Image
           class="rounded-t-md"
           src={`/metadata/${id}.png`}
@@ -24,9 +24,9 @@ const HippoRow = ({ id }: any) => {
           height="200"
           width="200"
         />
-      </Link>
-      <span class="text-center">#{id}</span>
+        <div class="p-2 text-center">{id}</div>
     </div>
+  </Link>
   )
 }
 
@@ -56,9 +56,9 @@ const MyHippos: NextPage = (props) => {
           content="The hippos available in my wallet."
         />
       </Head>
-      <HomeView />
-      <h1>My Happy Hippos</h1>
-      <p>{publicKey ? publicKey.toString() : 'no wallet connected'}</p>
+      <h1 class="max-w-screen-lg m-auto text-center funny text-6xl mt-8 mb-8">
+        My Happy Hippos
+      </h1>
       <div class="grid grid-cols-5 gap-4 p-3 max-w-screen-lg m-auto">
         {hippos.map((hippo, i) => {
           const hid = hippo.data.name.substring("happy hippo #".length)
