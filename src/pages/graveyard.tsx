@@ -37,7 +37,13 @@ const MyHippos: NextPage = (props) => {
     publicAddress: publicKey,
     connection,
   });
-  const hippos = nfts.filter(nft => nft.updateAuthority === AUTHORITY_ADDRESS)
+  const hippos = nfts
+    .filter(nft => nft.updateAuthority === AUTHORITY_ADDRESS)
+    .sort((a, b) => {
+        const aname = a.data.name.substring("happy hippo #".length)
+        const bname = b.data.name.substring("happy hippo #".length)
+        return aname.padStart(4, '0').localeCompare(bname.padStart(4, '0'))
+     })
 
   return (
     <div>
