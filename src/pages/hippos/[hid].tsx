@@ -41,7 +41,6 @@ const Hippos: NextPage = (props) => {
           content="The home of the Happy Hippos community"
         />
       </Head>
-      <h2>toto</h2>
       <HomeView />
       <h1 class="text-3xl p-3 max-w-screen-lg m-auto">All Happy Hippos</h1>
       <div class="max-w-screen-lg m-auto">
