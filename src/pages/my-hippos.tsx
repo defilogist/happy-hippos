@@ -56,7 +56,6 @@ const MyHippos: NextPage = (props) => {
       <div class="grid grid-cols-5 gap-4 p-3 max-w-screen-lg m-auto">
         {hippos.map((hippo, i) => {
           const hid = hippo.data.name.substring("happy hippo #".length)
-          console.log(hippo.data.name, hid)
           return (
             <HippoRow key={hid} id={hid}></HippoRow>
           )
