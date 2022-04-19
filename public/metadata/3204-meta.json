@@ -1,0 +1,46 @@
+{
+  "name": "Happy Hippo #3204",
+  "symbol": "HH",
+  "image": "https://bafybeibdgia3fq2execyymhbtqteqt3alkigryaods6rw3otjrmzjtbwgm.ipfs.dweb.link/3203.png",
+  "description": "The cutest Happy Hippos on the blockchain, setting out together on an adventure in the Metaverse.",
+  "external_url": "https://www.solhappyhippos.com/",
+  "seller_fee_basis_points": 500,
+  "collection": {
+    "name": "Happy Hippos",
+    "family": "Happy Hippos"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "https://bafybeibdgia3fq2execyymhbtqteqt3alkigryaods6rw3otjrmzjtbwgm.ipfs.dweb.link/3203.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Light Brown"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Bib"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Kiss"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blank"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Rainbow Unicorn"
+    }
+  ]
+}

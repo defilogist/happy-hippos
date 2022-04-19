@@ -1,0 +1,46 @@
+{
+  "name": "Happy Hippo #2068",
+  "symbol": "HH",
+  "image": "https://bafybeiehgsfcgri3d4belsvfpw6a7af6mzlv57gpxlr2v4m7n35dlmrj5u.ipfs.dweb.link/2067.png",
+  "description": "The cutest Happy Hippos on the blockchain, setting out together on an adventure in the Metaverse.",
+  "external_url": "https://www.solhappyhippos.com/",
+  "seller_fee_basis_points": 500,
+  "collection": {
+    "name": "Happy Hippos",
+    "family": "Happy Hippos"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "https://bafybeiehgsfcgri3d4belsvfpw6a7af6mzlv57gpxlr2v4m7n35dlmrj5u.ipfs.dweb.link/2067.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Zombie"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Waldo Tee"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Open"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blank"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Band-Aid"
+    }
+  ]
+}

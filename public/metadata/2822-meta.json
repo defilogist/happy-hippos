@@ -1,0 +1,46 @@
+{
+  "name": "Happy Hippo #2822",
+  "symbol": "HH",
+  "image": "https://bafybeida7tpp3sl3rbnvqc4n4r5waifol5va3jvrd5wngteldgkbvrb6wm.ipfs.dweb.link/2821.png",
+  "description": "The cutest Happy Hippos on the blockchain, setting out together on an adventure in the Metaverse.",
+  "external_url": "https://www.solhappyhippos.com/",
+  "seller_fee_basis_points": 500,
+  "collection": {
+    "name": "Happy Hippos",
+    "family": "Happy Hippos"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "https://bafybeida7tpp3sl3rbnvqc4n4r5waifol5va3jvrd5wngteldgkbvrb6wm.ipfs.dweb.link/2821.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Rainbow"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Zombie"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Waldo Tee"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bubblegum"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Smug"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Sweatband"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Happy Hippo #1061",
+  "symbol": "HH",
+  "image": "https://bafybeibyps6ngmgeahypklc7umq3wkx7t74xykd4iphcfvty2znfevvoga.ipfs.dweb.link/1060.png",
+  "description": "The cutest Happy Hippos on the blockchain, setting out together on an adventure in the Metaverse.",
+  "external_url": "https://www.solhappyhippos.com/",
+  "seller_fee_basis_points": 500,
+  "collection": {
+    "name": "Happy Hippos",
+    "family": "Happy Hippos"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "https://bafybeibyps6ngmgeahypklc7umq3wkx7t74xykd4iphcfvty2znfevvoga.ipfs.dweb.link/1060.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Waldo Tee"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Red Pacifier"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Normal"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Artist Glasses"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Happy Hippo #850",
+  "symbol": "HH",
+  "image": "https://bafybeigmgas3jldtdqqg3vbsepz445iidn6wcr6g2l5ckfpviklzy4i5eq.ipfs.dweb.link/849.png",
+  "description": "The cutest Happy Hippos on the blockchain, setting out together on an adventure in the Metaverse.",
+  "external_url": "https://www.solhappyhippos.com/",
+  "seller_fee_basis_points": 500,
+  "collection": {
+    "name": "Happy Hippos",
+    "family": "Happy Hippos"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "https://bafybeigmgas3jldtdqqg3vbsepz445iidn6wcr6g2l5ckfpviklzy4i5eq.ipfs.dweb.link/849.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Bricks"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Red Hoodie"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bunny Teeth"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Scared"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Flight Goggles"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Happy Hippo #2223",
+  "symbol": "HH",
+  "image": "https://bafybeifmw3pmvv4q4ng4flbbrc2o65c6i24imhpsahjlw7ajqm4k5ogukq.ipfs.dweb.link/2222.png",
+  "description": "The cutest Happy Hippos on the blockchain, setting out together on an adventure in the Metaverse.",
+  "external_url": "https://www.solhappyhippos.com/",
+  "seller_fee_basis_points": 500,
+  "collection": {
+    "name": "Happy Hippos",
+    "family": "Happy Hippos"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "https://bafybeifmw3pmvv4q4ng4flbbrc2o65c6i24imhpsahjlw7ajqm4k5ogukq.ipfs.dweb.link/2222.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pearls"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bunny Teeth"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Crazy"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Knight"
+    }
+  ]
+}

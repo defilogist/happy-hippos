@@ -1,0 +1,46 @@
+{
+  "name": "Happy Hippo #1254",
+  "symbol": "HH",
+  "image": "https://bafybeifjrf3bviri5lm3ztjtaxjjlwcpxn2iebqc6hcu6gtesneqz7gqyq.ipfs.dweb.link/1253.png",
+  "description": "The cutest Happy Hippos on the blockchain, setting out together on an adventure in the Metaverse.",
+  "external_url": "https://www.solhappyhippos.com/",
+  "seller_fee_basis_points": 500,
+  "collection": {
+    "name": "Happy Hippos",
+    "family": "Happy Hippos"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "https://bafybeifjrf3bviri5lm3ztjtaxjjlwcpxn2iebqc6hcu6gtesneqz7gqyq.ipfs.dweb.link/1253.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Green Bandana"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Original"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Smug"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Band-Aid"
+    }
+  ]
+}

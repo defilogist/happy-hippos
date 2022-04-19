@@ -1,0 +1,46 @@
+{
+  "name": "Happy Hippo #934",
+  "symbol": "HH",
+  "image": "https://bafybeiem4nlse2ee4twmpenybhnbxgh2nabma7qva762cnropwevxkeqvm.ipfs.dweb.link/933.png",
+  "description": "The cutest Happy Hippos on the blockchain, setting out together on an adventure in the Metaverse.",
+  "external_url": "https://www.solhappyhippos.com/",
+  "seller_fee_basis_points": 500,
+  "collection": {
+    "name": "Happy Hippos",
+    "family": "Happy Hippos"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "https://bafybeiem4nlse2ee4twmpenybhnbxgh2nabma7qva762cnropwevxkeqvm.ipfs.dweb.link/933.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Bricks"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Blue Bandana"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Moustache"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Normal"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Ninja Mask Red"
+    }
+  ]
+}

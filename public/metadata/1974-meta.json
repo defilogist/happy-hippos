@@ -1,0 +1,46 @@
+{
+  "name": "Happy Hippo #1974",
+  "symbol": "HH",
+  "image": "https://bafybeiegwaqgayloyjvkpf2onmzqlszh5xezxxgtlhr6nj45ui2jn6j35e.ipfs.dweb.link/1973.png",
+  "description": "The cutest Happy Hippos on the blockchain, setting out together on an adventure in the Metaverse.",
+  "external_url": "https://www.solhappyhippos.com/",
+  "seller_fee_basis_points": 500,
+  "collection": {
+    "name": "Happy Hippos",
+    "family": "Happy Hippos"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "https://bafybeiegwaqgayloyjvkpf2onmzqlszh5xezxxgtlhr6nj45ui2jn6j35e.ipfs.dweb.link/1973.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Black Logo Hoodie"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tongue Out"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Hearts"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Ice Cream"
+    }
+  ]
+}

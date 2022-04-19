@@ -1,0 +1,46 @@
+{
+  "name": "Happy Hippo #3836",
+  "symbol": "HH",
+  "image": "https://bafybeigdec7hsom5fcpzqoxvmjw4ezjlwuyzpv7pxidwebsy5uhrcwynk4.ipfs.dweb.link/3835.png",
+  "description": "The cutest Happy Hippos on the blockchain, setting out together on an adventure in the Metaverse.",
+  "external_url": "https://www.solhappyhippos.com/",
+  "seller_fee_basis_points": 500,
+  "collection": {
+    "name": "Happy Hippos",
+    "family": "Happy Hippos"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "https://bafybeigdec7hsom5fcpzqoxvmjw4ezjlwuyzpv7pxidwebsy5uhrcwynk4.ipfs.dweb.link/3835.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Black Tee"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tongue Out"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Smug"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Duelist Hair"
+    }
+  ]
+}

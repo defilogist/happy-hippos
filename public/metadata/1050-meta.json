@@ -1,0 +1,46 @@
+{
+  "name": "Happy Hippo #1050",
+  "symbol": "HH",
+  "image": "https://bafybeihhozlu75sx3mztvkuuocfakwea2x3uddwkfeidhepujtwfn3ps6a.ipfs.dweb.link/1049.png",
+  "description": "The cutest Happy Hippos on the blockchain, setting out together on an adventure in the Metaverse.",
+  "external_url": "https://www.solhappyhippos.com/",
+  "seller_fee_basis_points": 500,
+  "collection": {
+    "name": "Happy Hippos",
+    "family": "Happy Hippos"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "https://bafybeihhozlu75sx3mztvkuuocfakwea2x3uddwkfeidhepujtwfn3ps6a.ipfs.dweb.link/1049.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Waldo Tee"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Unfazed"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cute"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Duelist Hair"
+    }
+  ]
+}

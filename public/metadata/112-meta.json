@@ -1,0 +1,46 @@
+{
+  "name": "Happy Hippo #112",
+  "symbol": "HH",
+  "image": "https://bafybeid3skfupz4fjgqrxjc5ksdiy3fjskfmhiaog32wbikv57ai652zne.ipfs.dweb.link/111.png",
+  "description": "The cutest Happy Hippos on the blockchain, setting out together on an adventure in the Metaverse.",
+  "external_url": "https://www.solhappyhippos.com/",
+  "seller_fee_basis_points": 500,
+  "collection": {
+    "name": "Happy Hippos",
+    "family": "Happy Hippos"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "https://bafybeid3skfupz4fjgqrxjc5ksdiy3fjskfmhiaog32wbikv57ai652zne.ipfs.dweb.link/111.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Space Station"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Red Robot"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pearls"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Kiss"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Angry"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Knight"
+    }
+  ]
+}
