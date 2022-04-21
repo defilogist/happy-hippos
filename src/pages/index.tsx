@@ -12,8 +12,8 @@ const Home: NextPage = (props) => {
           content="The home of the Happy Hippos community"
         />
       </Head>
-      <h1 class="max-w-screen-lg m-auto text-center funny text-6xl mt-8">
-        Welcome to the happy hippos!
+      <h1 className="max-w-screen-lg m-auto text-center funny text-6xl mt-8">
+        Welcome to the Happy Hippos!
       </h1>
     </div>
   );
