@@ -10,6 +10,7 @@ const HippoRow = ({ id }: any) => {
   id = id + 1
   return (
   <Link href={`/hippo/${id}`}>
+    <a>
     <div className="bg-white rounded-md shadow-md text-black cursor-pointer">
         <Image
           className="rounded-t-md"
@@ -19,7 +20,8 @@ const HippoRow = ({ id }: any) => {
           width="200"
         />
         <div className="p-2 text-center">{id}</div>
-    </div >
+    </div>
+    </a>
   </Link>
   )
 }
@@ -27,7 +29,7 @@ const HippoRow = ({ id }: any) => {
 const Hippos: NextPage = (props) => {
   const router = useRouter()
   let query = router.query
-  let hid = parseInt(query.hid + '') | 1
+  let hid = parseInt(query.hid + '') || 1
   if (hid < 1) hid = 1
   if (hid > 44) hid = 44
   hid = hid - 1

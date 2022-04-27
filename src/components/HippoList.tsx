@@ -4,22 +4,24 @@ import Image from "next/image";
 import Link from "next/link";
 
 const HippoRow = ({ id }: any) => {
-    return (
-        <Link href={`/hippo/${id}`}>
-            <div
-                className="bg-white rounded-md shadow-md text-black cursor-pointer"
-            >
-                <Image
-                    className="rounded-t-md"
-                    src={`/metadata/${id}.png`}
-                    alt="Hippo #{id} picture"
-                    height="200"
-                    width="200"
-                />
-                <div className="p-2 text-center">{id}</div>
-            </div>
-        </Link>
-    )
+  return (
+    <Link href={`/hippo/${id}`}>
+      <a>
+        <div
+          className="bg-white rounded-md shadow-md text-black cursor-pointer"
+        >
+          <Image
+            className="rounded-t-md"
+            src={`/metadata/${id}.png`}
+            alt="Hippo #{id} picture"
+            height="200"
+            width="200"
+          />
+          <div className="p-2 text-center">{id}</div>
+        </div>
+      </a>
+    </Link>
+  )
 }
 
 export const HippoList = ({ hippos, isLoading }: any) => {
@@ -29,13 +31,18 @@ export const HippoList = ({ hippos, isLoading }: any) => {
         </div>
     )
     else return (
-        <div className="grid grid-cols-5 gap-4 p-3 max-w-screen-lg m-auto">
-            {hippos.map(hippo => {
-                const hid = hippo.data.name.substring("happy hippo #".length)
-                return (
-                    <HippoRow key={hid} id={hid}></HippoRow>
-                )
-            })}
+        <div>
+          <p className="max-w-screen-lg m-auto text-center">
+            {hippos.length} hippos burned
+          </p>
+          <div className="grid grid-cols-5 gap-4 p-3 max-w-screen-lg m-auto">
+              {hippos.map(hippo => {
+                  const hid = hippo.data.name.substring("happy hippo #".length)
+                  return (
+                      <HippoRow key={hid} id={hid}></HippoRow>
+                  )
+              })}
+          </div>
         </div>
     )
 }  

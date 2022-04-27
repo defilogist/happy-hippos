@@ -45,15 +45,14 @@ const Hippo: NextPage = (props) => {
 
   const router = useRouter()
   const { hid } = router.query
-  let hippoid = parseInt(hid + '') | 1
+  let hippoid = parseInt(hid + '') || 1
   if (hippoid < 1) hippoid = 1
-  if (hippoid > 4400) hippoid = 44
+  if (hippoid > 4400) hippoid = 4400
 
   useEffect(() => {
     getData(hippoid)
   }, [])
 
-  console.log(data)
   return (
     <div>
       <Head>

@@ -45,6 +45,7 @@ const getNfts = async (connection, wallet) => {
 const HippoRow = ({ id }: any) => {
   return (
     <Link href={`/hippo/${id}`}>
+      <a>
       <div className="bg-white rounded-md shadow-md text-black cursor-pointer">
         <Image
           className="rounded-t-md"
@@ -55,6 +56,7 @@ const HippoRow = ({ id }: any) => {
         />
         <div className="p-2 text-center">{id}</div>
       </div>
+      </a>
     </Link>
   )
 }

@@ -26,7 +26,7 @@ const MyHippos: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>Hippo Graveyard</title>
+        <title>Happy Hippos Graveyard</title>
         <meta
           name="description"
           content="The hippos burned by the community."
