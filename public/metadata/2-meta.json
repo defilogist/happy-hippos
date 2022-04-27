@@ -1,10 +1,10 @@
 {
   "name": "Happy Hippo #2",
   "symbol": "HH",
-  "image": "https://bafybeibzuo75hqsaobxjezmvzxs3allghicruj35nsakdlihrvrrof2pby.ipfs.dweb.link/1.png",
+  "image": "https://bafybeidwihoitkmk2s5fpm3jbumyxjvjevyq44achps5xvcq2lvgcen7gm.ipfs.dweb.link/1.png",
   "description": "The cutest Happy Hippos on the blockchain, setting out together on an adventure in the Metaverse.",
   "external_url": "https://www.solhappyhippos.com/",
-  "seller_fee_basis_points": 0,
+  "seller_fee_basis_points": 500,
   "collection": {
     "name": "Happy Hippos",
     "family": "Happy Hippos"
@@ -12,7 +12,7 @@
   "properties": {
     "files": [
       {
-        "uri": "https://bafybeibzuo75hqsaobxjezmvzxs3allghicruj35nsakdlihrvrrof2pby.ipfs.dweb.link/1.png",
+        "uri": "https://bafybeidwihoitkmk2s5fpm3jbumyxjvjevyq44achps5xvcq2lvgcen7gm.ipfs.dweb.link/1.png",
         "type": "image/png"
       }
     ]
@@ -20,19 +20,27 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "blue"
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Gray"
     },
     {
       "trait_type": "Body",
-      "value": "cyan-face"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "square-eyes"
+      "value": "Orange Puffer"
     },
     {
       "trait_type": "Mouth",
-      "value": "smile-mouth"
+      "value": "Unfazed"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Money"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Horns"
     }
   ]
 }

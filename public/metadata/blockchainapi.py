@@ -9,13 +9,16 @@ BLOCKCHAIN_API_RESOURCE = TheBlockchainAPIResource(
     api_key_id=ID,
     api_secret_key=SECRET
 )
-name_to_search = "Happy Hippo #"
+name_to_search = "Happy Hippo #3761"
 nfts = BLOCKCHAIN_API_RESOURCE.search_nfts(
     nft_name=name_to_search,
-    nft_name_search_method=SearchMethod.BEGINS_WITH,
+    nft_name_search_method=SearchMethod.EXACT_MATCH,
     network=SolanaNetwork.MAINNET_BETA
 )
+nfts = [nfts[0]]
 for nft in nfts:
+    import pprint
+    pprint.pprint(nft)
     name = nft["nft_metadata"]["data"]["name"][13:]
     if not os.path.exists(name + 'png'):
         try:
