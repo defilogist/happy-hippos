@@ -13,7 +13,7 @@ module.exports = {
     styled: true,
     themes: [
       {
-        'solana': {                          /* your theme name */
+        'hippo': {                          /* your theme name */
           fontFamily: {
             display: ['PT Mono, monospace'],
             body: ['Inter, sans-serif'],
